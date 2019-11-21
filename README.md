@@ -20,7 +20,7 @@
 
 ![screenshot_4](./image/screenshot_4.png)
 
-(실제 paragraph는 추가되었지만 글은 첫번째 줄로 일어진 현상)
+(실제 paragraph는 추가되었지만 글은 첫번째 줄로 이어 현상)
 
 ![screenshot_5](./image/screenshot_5.png)
 
