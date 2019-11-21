@@ -9,15 +9,19 @@
 --- 일본어 입력 줄바꿈시 현상 ---
 
 (일본어 입력시 단어 변환 팝업 생성)
+
 ![screenshot_2](./image/screenshot_2.png)
 
 (첫번째 입력 후 shift + enter 입력하여 줄바꿈 처리)
+
 ![screenshot_3](./image/screenshot_3.png)
 
 (두번째줄에서 일본어를 다시 입력하면 윗줄에 이어쓰기 되는 현상)
+
 ![screenshot_4](./image/screenshot_4.png)
 
 (실제 paragraph는 추가되었지만 글은 첫번째 줄로 일어진 현상)
+
 ![screenshot_5](./image/screenshot_5.png)
 
 --- 해결 방안 ---
@@ -33,6 +37,7 @@
 6. CompositionAdorner를 찾기 위해서는 비주얼 스튜디오의 라이브 시각적 트리 도구를 이용하여 확인 할수 있다.
 
 (라이브 시각적 트리)
+
 ![screenshot_1](./image/screenshot_1.png)
 
 7. CompositionAdorner 클래스의 유무에 따라서 Shift + Enter 이벤트를 처리하면 된다.
